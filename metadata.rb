@@ -1,3 +1,4 @@
+name             "chef_spiff"
 license          "Apache 2.0"
 description      "Installs/Configures spiff"
 
