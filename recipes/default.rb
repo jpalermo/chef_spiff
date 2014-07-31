@@ -4,5 +4,5 @@ remote_file "#{Chef::Config[:file_cache_path]}/spiff.zip" do
 end
 
 execute "Extract spiff" do
-  command "unzip -d /usr/bin #{Chef::Config[:file_cache_path]}/spiff.zip"
+  command "unzip -o -d /usr/bin #{Chef::Config[:file_cache_path]}/spiff.zip"
 end
